@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/songname"
+        android:text="Songname"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:src="@drawable/add"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/save" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+
+        android:src="@drawable/save"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+
+        android:src="@drawable/delete"
+        android:layout_toStartOf="@+id/add"
+        android:layout_alignBottom="@+id/add" />
+
+
+</RelativeLayout>
